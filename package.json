@@ -1,0 +1,20 @@
+{
+  "name": "neo4j-node",
+  "version": "1.0.0",
+  "description": "Node NEO4J",
+  "main": "/src/server.ts",
+  "author": "Eric",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "dev:debug": "nodemon --inspect src/server.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "typescript": "^4.7.4"
+  }
+}
